@@ -27,21 +27,21 @@ lines:
     !right
   dialog:
   - |
-    So your logic have lead you to a different conclusion.
-    However, when you finally thought it all out, you will come back to me.
+    So your logic led you to a different conclusion.
+    When you have <i>all</> the information, you'll make a better choice.
 - tags: [reject_advisor, advisor_manipulate, bad_relation]
   pre: |
     !right
   dialog:
-  - A shame that someone as bright as you lacks basic logic.
+  - It's really a shame that someone as bright as you can't use basic logic.
 
 # Hostile
 - tags: [reject_advisor, advisor_hostile, good_relation]
   pre: |
     !right
   dialog:
-  - Hmm... Normally that would work.
-  - Soon you'll realize that who you choose is not as good as me.
+  - Hmm... that usually works.
+  - Soon you'll realize that you can't do better than me, and that everyone else is a worse advisor.
 - tags: [reject_advisor, advisor_hostile, bad_relation]
   pre: |
     !right
@@ -65,8 +65,7 @@ lines:
   - |
     agent:
       There's a great place that I often visit.
-      I should let you know.
-      Just in case, you know, you want to go there during your free time.
+      I'll tell you about it in case you have a spare moment to go there.
       It's called {loc_to_unlock#location}.
     player:
       Great, thanks.
@@ -78,9 +77,9 @@ lines:
     player:
       Well... maybe?
     agent:
-      Well, I know this little bar where you can find the best view of Havaria.
-      Swing by the Grog n' Dog when you get chance.
-      They sell amazing drinks, and people from all factions visit there, incase you need some more connections.
+      Well, I know this little bar where you can find the best view in Havaria.
+      Swing by the Grog n' Dog when you get the chance.
+      They sell amazing drinks, and people from all over visit there, in case you need some more connections.
       You should definitely go check it out!
 #I'm assuming just attaching this little thing at the end will check for the character. pardon me while I make the common smith conversation.
 - tags: [unlock_location, unlock_grog_n_dog, sal]
@@ -89,48 +88,49 @@ lines:
     agent:
       Ever enjoy an ice cold cup of plonk with a nice view of the land?
     player:
-      Best view I've ever had was out of a large lumin pipe onto the sea full of flotsam.
+      Best view I've ever had was out of a large lumin pipe on a sea full of flotsam.
     agent:
-      Well, I know this little bar where you can find the best view of Havaria.
-      Swing by the Grog n' Dog when you get chance.
-      They sell amazing drinks, and people from all factions visit there, incase you need some more connections.
+      Well, I know this little bar where you can find the best view in Havaria.
+      Swing by the Grog n' Dog when you get the chance.
+      They sell amazing drinks, and people from all over visit there, in case you need some more connections.
       You should definitely go check it out!
     player:
       I know the proprietor personally.
     agent:
-      Oh. I was just trying to be helpful.
+      Oh, sorry, I assumed...
     player:
-      It's okay. I forgot where it was before, but thanks for telling me the location.
+      It's fine. You helped me remember where it was, anyhow.
 - tags: [unlock_location, unlock_tavern, smith]
   notags: [unlock_moreef_bar, unlock_spree_inn]
   dialog:
   - |
     agent:
-      Smith... Smith, do I even need to tell you where the bar is?
+      Smith... Do I even need to tell you where the bar is?
     player:
       Well, no. If anything you'd be saving them the trouble of dealing with me.
       But since you proposed...
     agent:
-      It's called {loc_to_unlock#location}. They're pretty cheap and everyone from the Law to the Lawless go there.
+      !sigh
+      It's called {loc_to_unlock#location}. They're pretty cheap, and everyone from the Law to the Outlaws go there.
     player:
-      Why thank you, my dear friend. I shall escort myself there at once!
+      Why thank you, my dear friend. I shall travel there at once!
     agent:
-      Just...just don't run a tab. The bartender's is a no-nonsense type, and they have powerful contacts behind them.
+      Just don't run a tab. The bartender's a no-nonsense type, and they have powerful connections.
     player:
       !happy
-      No bartender had stood a chance to my improvisation!
+      No bartender's been able to deal with me yet!
 - tags: [unlock_location, unlock_spree_inn]
   dialog:
   - |
     agent:
       There's a bar called the Gutted Yote.
-      It lies in the, ah, "lawless" part of the bay.
-      Not that the rest of the bay is lawful. It's just that more questionable figures visit there.
+      It lies in the, ah, "lawless" part of the Bay.
+      Not that the rest of the Bay is lawful. It's just...less lawful. The <i>least lawful</>, you might say.
     player:
-      What does that have to do with me?
+      And you're telling me this because...?
     agent:
-      If you want to have connections with the darker side of the bay, that's a good place to start.
-      Be careful though, they'll sell you some extra strong swill if that'd mean mugging you on the way out the door!
+      If you want to make connections with the shadier side of the Bay, that's a good place to start.
+      Be careful though, they'll give you harder swill if that'd mean mugging you on your way out!
 - tags: [unlock_location, unlock_newdeltree_outfitters]
   dialog:
   - |
@@ -139,50 +139,49 @@ lines:
     player:
       I'm a politician. I use my words instead of my fists.
     agent:
-      Well, some people don't really care about your diplomatic immunity.
+      Well, some people might not care about your diplomatic immunity.
       You never know, right?
-      Anyway, check out Trusty's Outfitting. They sell all kinds of equipment. Also hats.
+      Anyway, check out Trusty's Outfitting. They sell all kinds of <i>equipment</>. Also hats.
 - tags: [unlock_location, unlock_murder_bay_chemist]
   dialog:
   - |
     agent:
-      If you get hurt, you should definitely visit the Better Living Chemist.
-      They will sell you different types of chemicals and healing items.
-      It's always a good idea to keep one or two at hand, in case push comes to shove, followed by bites and a few right hooks to the jawline.
+      If you get hurt, Better Living Chemists can patch you up.
+      They usually have good healing items and useful chemicals in stock.
+      It's always a good idea to keep one or two at hand, in case push comes to shove...followed by bites and a few right hooks to the jawline.
 - tags: [unlock_location, unlock_admiralty_barracks]
   dialog:
   - |
     agent:
       You should probably know where the Admiralty Headquarters is.
-      Getting the Admiralty on your good side is always a good thing.
+      Getting the Admiralty on your side is always a good thing.
     player:
       !thought
-      I don't know. Their boons are kind of useless.
-      I mean, when am I ever going to use Authorization?
-      Every time I need Admiralty help, they are never there.
-      And when I run into trouble with the Admiralty, I can't even use it.
+      I don't know. They're not much of a help.
+      I mean, when am I ever going to use an Authorization?
+      Every time I need Admiralty help, they're never around.
+      Except when I have trouble <i>with</> the Admiralty, and then they're no help either.
     agent:
       !dubious
       Is that your experience with the Admiralty?
       Well, what about Sparring? Or Commander? Have they not helped in the past?
     player:
       !shrug
-      Fair enough, thanks for the location.
+      Fair enough, then. Thanks for the location.
 - tags: [unlock_location, unlock_tavern]
   dialog:
   - |
     agent:
       I often drink at a place called {loc_to_unlock#location}.
-      It's nothing too special, but you get to visit many interesting people there.
+      It's nothing special, but you can sitll make contacts there.
       We should drink at there some time.
-    * You're pretty sure you're not allowed to drink with someone who you already liked, but you don't want to bring it up to ruin your relationship.
+    * You're pretty sure you're not allowed to drink with someone who already likes you, but talking about that now would be weird.
 - tags: [unlock_location, unlock_shop]
   dialog:
   - |
     agent:
       There's a cool shop that I like to visit called {loc_to_unlock#location}.
-      They sell a lot of useful items. You definite want to stock up on some.
-      You should definitely check it out when you have time.
+      They sell a lot of useful items. It'd be a good idea to stock up when you have the time and spare funds.
 
 - tags: [confront_argument]
   dialog:
@@ -190,7 +189,9 @@ lines:
   - You're wrong. Here's 100 reasons why.
   - Sore wa chigau yo!
   - You want to get your mind changed? I'll help you with that!
-  - I can easily prove you're wrong.
+  - I can easily prove you wrong.
+  - Seriously? You're using <i>that</> tired line?
+  - I have the perfect counter-argument!
 
 - tags: [rebuttal]
   dialog:
@@ -198,4 +199,5 @@ lines:
   - Here's why your claim is wrong.
   - Your opinion is baseless.
   - You need to try harder to convince me!
-  - Your thought is naive!
+  - You are naive!
+  

@@ -6,21 +6,26 @@ lines:
 - tags: [investigation_greeting, player]
   dialog:
   - How's the investigation?
-  - Is the investigation going okay?
+  - Is the investigation going smoothly?
+  - Got any dirt yet?
 
 - tags: [investigation_greeting, player, tavern]
   dialog:
-  - What are you doing in a bar?
+  - What are you doing here?
   - Aren't you supposed to be investigating?
 
 - tags: [investigation_greeting, agent]
   dialog:
-  - The investigation is coming up.
-  - Investigations takes <i>time</>.
+  - It won't go faster with you looking over my shoulder.
+  - Hold your oshnus. I'm working on it.
+  - Investigations take <i>time</>.
+  - Did you pay for a <i>fast</> job or a <i>good</> job?
   - I'm still trying to find evidence.
+  - I've done what I can for the moment.
 
 - tags: [investigation_greeting, agent, tavern]
   dialog:
-  - I like to drink while doing detective works.
-  - You'd be surprised how much information you can get from taverns.
-  - Maybe I can ask one of the patrons here for more info.
+  - I like to drink while doing detective work.
+  - You'd be surprised how much you can find out over a drink.
+  - One of the customers here might have something.
+  - Keep your distance - I'll report to you when I've found something.

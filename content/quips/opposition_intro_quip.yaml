@@ -9,18 +9,18 @@ lines:
 - tags: [opposition_intro, idea_monologue, candidate_admiralty]
   dialog:
   - |
-    Since day one, Havaria has had bandits, contraband smugglers, and corruption throughout the ranks.
+    As far back as I can remember, Havaria has been rife with bandits, smugglers, and widespread corruption.
     !hips
-    That's why I cast myself for the election. With my leadership, we can get rid of these problems at their roots.
-    Unfortunately, this is an election. Society could continue to be dystopian grimdark with the cast of a few ballots.
+    That's why I 'm running in this election. With my leadership, we can get address these problems at their roots.
+    Unfortunately, this is an election. All it takes it a few ballots to plunge Havaria deeper into dystopia.
 
 - tags: [opposition_intro, idea_monologue, candidate_spree]
   dialog:
   - |
     Havaria has had a tenuous relationship with Deltree for decades.
-    This mass annexation is guaranteed to be the straw that broke the Oshnu's shell.
+    This mass annexation is guaranteed to be the straw that breaks the Oshnu's shell.
     !eureka
-    When I become President, I will start by establishing Havaria's independence, once and for all.
+    When I become President, I will establish Havaria's independence, once and for all.
 
 - tags: [opposition_intro, idea_monologue, candidate_baron]
   dialog:
@@ -35,21 +35,20 @@ lines:
   dialog:
   - |
     The common workers of Havaria have always been the backbone of Havarian society.
-    But those born with silver spoons have always oppressed them.
-    The workers are like fire fuel, A powder keg of revolution and change for the better.
+    But those born with silver spoons in their mouths have always oppressed them.
+    The workers are like fuel, a powder keg of revolution and change for the better.
     I intend to be the spark.
 
 - tags: [opposition_intro, idea_monologue, candidate_cult]
   dialog:
   - |
-    For years, we have watched the blessed items of Hesh be treated as trinkets. Mere baubles.
-    Once I'm in office, I shall cut no corner to cut this problem off.
-    All artifacts of Hesh will be revered as they once were, not what they mean for the bottom line.
+    For years, we have watched the blessed relics of Hesh be cast aside, or treated like mere trinkets or baubles.
+    No longer. Once I'm in office, I shall stop at nothing to reclaim all relics currently out of the hands of the Cardinals.
+    All artifacts of Hesh will be held in their rightful reverence, unsullied by money or the greed of nonbelievers.
 
 - tags: [opposition_intro, idea_monologue, candidate_jakes]
   dialog:
   - |
-    I actually run a bit of an "independent" platform.
-    The contraband laws are, to be frank, played fast and loose by the government.
-    Unsurprisingly, I had a few troubles with that when my small business is infringed upon.
-    Naturally, I got quite a few Jakes on my side. Best keep out of my way, unless you want to be drearily unequipped.
+    I'm actually running a bit of an "independent" platform.
+    The establishment plays fast and loose with contraband laws here, and that's affected my business on more than one occasion.
+    I have the Jakes on my side here. If you want your goods, you'll stay out of my way.

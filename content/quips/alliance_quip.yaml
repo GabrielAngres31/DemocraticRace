@@ -15,51 +15,51 @@ lines:
   dialog:
   - |
     agent:
-      [p] It's been so long since we last met.
+      [p] It's been a while.
     player:
-      I agree.
-      My days on the derricks are certainly rough.
-      But I will fight back.
+      You can say that again. I can't say I miss the derricks, though.
     agent:
-      You can. The election is your greatest chance at shaking the status quo upside down.
+      At least now you might be in a position to change things, if you win the election.
     player:
-      Still, I am glad that I got my friend back.
+      I'm just happy to see my friend Kal again.  
     agent:
-      Same.
+      Kal and Sal, just like it used to be. *smiles*
 
 - tags: [successful_alliance, player_rook, spark_contact]
   dialog:
   - |
     agent:
-      [p] I guess it's back to being us two, huh?
+      [p] And once again, it's the two of us.
     player:
-      Just like the old times when you and I are both still in the Admiralty.
+      Just like old times in the Admiralty, eh?
     agent:
-      To be honest, I was never good at this intrigue stuff.
-      I would rather beat the crap out of my enemies from the shadow than running for president.
-      I guess I will leave leading people to you, Rook.
+      There's less shooting and stabbing this time, though.
+      You were always better at this political intrigue stuff, Rook, so I'll ask you to take the lead here.
     player:
       <i>Captain</> Rook.
     agent:
       Ah, of course, Captain.
-      Either way, I'm glad we can fight side by side again.
+      Either way, I'm glad we're fighting side by side again.
     player:
-      That is based on words instead of guns.
-      I guess there's a lot we can both learn.
+      Figuratively speaking.
+    agent:
+      Yes, of course.
+    player:
+      I guess we both still have more to learn.
 - tags: [successful_alliance, player_smith, vixmalli]
   dialog:
   - |
     agent:
-      [p] Perhaps you aren't as useless as I thought you would be.
+      [p] Perhaps you aren't as useless as I thought you'd be.
     player:
-      What kind of underhanded compliment was that, Vix?
+      An underhanded compliment? I'm flattered, Vix.
     agent:
-      You would rather choose to drink at bars than pursue a useful career.
-      Still, seems like drinking granted you leadership abilities you can never learn at Priest Schools.
+      You remain a drunkard rather than making something of yourself.
+      All the same, you seem to have gained a knack for this that you would never have found if you'd become an Initiate.
       Seems like there's a lot to learn from you, brother.
     player:
-      Aw, how nice! You called me brother!
-      It's as if before you didn't consider me to be your brother as if you disowned me when you got infected by some Roaloch parasite.
+      Aw, Vix! "Brother"?
+      It's as if you never disowned me after being possessed by the Roaloach!
     agent:
       What?
     player:
