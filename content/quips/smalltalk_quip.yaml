@@ -30,15 +30,16 @@ lines:
     agent:
       He seems to think using obscure and confusing words somehow makes him relatable.
       Nobody actually talks like that! He just made himself into more of a fool.
-      Besides, he isn't actually concerned with workers' well-being.
-      Even if it wasn't your fault, if you missed your quota, he got a demerit and talked over anyone who protested.
+      Besides, he wasn't actually concerned with workers' well-being.
+      Even if it wasn't your fault, if you missed your quota, you got a demerit.
+      He woudl just talk over anybody who protested.
     player:
       !shrug
       That's a Spark Baron for you.
     agent:
       if that ain't the truth.
       !happy
-      Anyway, thanks for listening. Feels like a weight of my chest.
+      Anyway, thanks for listening. Feels like a weight off my chest.
 - tags: [poor_merchant, democratic_race]
   dialog:
   - |
